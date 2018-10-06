@@ -1,0 +1,28 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.freelance.yahia.raye7task.MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/fav"
+        android:orderInCategory="100"
+        android:title="Favourites"
+        app:showAsAction="always"
+        android:icon="@drawable/favourite"/>
+    <item
+        android:id="@+id/pickday"
+        android:orderInCategory="100"
+        android:title="Pick Day"
+        app:showAsAction="always"
+        android:icon="@drawable/calendar"/>
+    <item
+        android:id="@+id/refresh"
+        android:orderInCategory="100"
+        android:title="Refresh"
+        app:showAsAction="always"
+        android:icon="@drawable/refresh"/>
+</menu>
